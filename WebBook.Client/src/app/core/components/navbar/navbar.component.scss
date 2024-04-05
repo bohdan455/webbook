@@ -6,17 +6,23 @@ nav{
   height: 92px;
   align-items: center;
   padding: 26px 83px;
+  background-color: white;
 
   ul{
     display: flex;
-    width: 357px;
+    min-width: 357px;
     justify-content: space-between;
+    margin: 0 30px;
+    font-size: 20px;
+  }
 
+  li:hover{
+    color: #C48144;
   }
 
   input{
     width: 242px;
-    height: 30px;
+    height: 40px;
     padding: 10px;
     font-size: 16px;
     color: #626262;
