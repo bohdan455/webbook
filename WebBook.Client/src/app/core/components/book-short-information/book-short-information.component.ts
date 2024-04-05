@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'app-book-short-information',
@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './book-short-information.component.scss'
 })
 export class BookShortInformationComponent {
-
+  @Input() imgSrc: string;
+  @Input() name: string;
+  @Input() author: string;
+  @Input() genre: string;
+  @Input() numberOfPages: string;
 }
