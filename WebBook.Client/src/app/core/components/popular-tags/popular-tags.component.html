@@ -1,1 +1,6 @@
-<p>popular-tags works!</p>
+<div class="popular-tags">
+  <h2>Найпопулярніші теги</h2>
+  <div class="popular-tags-list">
+    <app-main-button fontSize="24" *ngFor="let tag of tags">{{tag}}</app-main-button>
+  </div>
+</div>

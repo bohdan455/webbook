@@ -23,6 +23,7 @@ import { CommentsComponent } from './core/components/comments/comments.component
 import { CommentsItemComponent } from './core/components/comments-item/comments-item.component';
 import { MainButtonComponent } from './core/components/main-button/main-button.component';
 import { MainPickerComponent } from './core/components/main-picker/main-picker.component';
+import { BookShortInformationComponent } from './core/components/book-short-information/book-short-information.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { MainPickerComponent } from './core/components/main-picker/main-picker.c
     CommentsComponent,
     CommentsItemComponent,
     MainButtonComponent,
-    MainPickerComponent
+    MainPickerComponent,
+    BookShortInformationComponent
   ],
   imports: [
     BrowserModule,

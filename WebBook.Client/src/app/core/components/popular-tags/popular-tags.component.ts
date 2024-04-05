@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './popular-tags.component.scss'
 })
 export class PopularTagsComponent {
-
+  tags : string[] = ["Фентизі", "Фантастика", "Гарі потер", "Фурі", "Побутове фентезі", "Кібер панк"]
 }

@@ -7,8 +7,6 @@ import {style} from "@angular/animations";
   styleUrl: './main-button.component.scss'
 })
 export class MainButtonComponent{
-  @Input() height: string;
-  @Input() width: string;
   @Input() fontSize: string
   @Output() action = new EventEmitter()
   protected readonly style = style;
