@@ -21,6 +21,8 @@ import { CatalogBookListPaggingComponent } from './core/components/catalog-book-
 import { CatalogGenrePopularComponent } from './core/components/catalog-genre-popular/catalog-genre-popular.component';
 import { CommentsComponent } from './core/components/comments/comments.component';
 import { CommentsItemComponent } from './core/components/comments-item/comments-item.component';
+import { MainButtonComponent } from './core/components/main-button/main-button.component';
+import { MainPickerComponent } from './core/components/main-picker/main-picker.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +44,9 @@ import { CommentsItemComponent } from './core/components/comments-item/comments-
     CatalogBookListPaggingComponent,
     CatalogGenrePopularComponent,
     CommentsComponent,
-    CommentsItemComponent
+    CommentsItemComponent,
+    MainButtonComponent,
+    MainPickerComponent
   ],
   imports: [
     BrowserModule,
