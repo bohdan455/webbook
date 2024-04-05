@@ -1,0 +1,15 @@
+button{
+  text-align: center;
+  cursor: pointer;
+  border: 2px #C48144 solid;
+  color: #C48144;
+  outline: none;
+  background-color: inherit;
+  border-radius: 24px;
+  font-weight: 500;
+}
+
+button:hover{
+  background-color: #C48144;
+  color: white;
+}
