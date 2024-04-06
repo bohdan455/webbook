@@ -1,0 +1,17 @@
+<div class="vertical-book-list">
+  <div class="title">
+    <h2>{{title}}</h2>
+    <a href="#">Більше</a>
+  </div>
+  <ul>
+    <li *ngFor="let book of books">
+      <app-book-short-information
+        name="Пригоди Володимерв"
+        author="Невідомий автор"
+        imgSrc="/assets/img/book-image.png"
+        genre="Фантастика"
+        numberOfPages="294"
+      ></app-book-short-information>
+    </li>
+  </ul>
+</div>
