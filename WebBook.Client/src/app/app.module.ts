@@ -10,10 +10,7 @@ import { NavbarComponent } from './core/components/navbar/navbar.component';
 import { HeaderComponent } from './core/components/header/header.component';
 import { FooterComponent } from './core/components/footer/footer.component';
 import { PopularTagsComponent } from './core/components/popular-tags/popular-tags.component';
-import { TopBooksComponent } from './core/components/top-books/top-books.component';
-import { TrendingBooksComponent } from './core/components/trending-books/trending-books.component';
 import { NewBooksComponent } from './core/components/new-books/new-books.component';
-import { YourLibraryComponent } from './core/components/your-library/your-library.component';
 import { CatalogBookListComponent } from './core/components/catalog-book-list/catalog-book-list.component';
 import { CatalogBookListItemComponent } from './core/components/catalog-book-list-item/catalog-book-list-item.component';
 import { CatalogFiltrationComponent } from './core/components/catalog-filtration/catalog-filtration.component';
@@ -24,6 +21,7 @@ import { CommentsItemComponent } from './core/components/comments-item/comments-
 import { MainButtonComponent } from './core/components/main-button/main-button.component';
 import { MainPickerComponent } from './core/components/main-picker/main-picker.component';
 import { BookShortInformationComponent } from './core/components/book-short-information/book-short-information.component';
+import { VerticalBookListComponent } from './core/components/vertical-book-list/vertical-book-list.component';
 
 @NgModule({
   declarations: [
@@ -35,10 +33,7 @@ import { BookShortInformationComponent } from './core/components/book-short-info
     HeaderComponent,
     FooterComponent,
     PopularTagsComponent,
-    TopBooksComponent,
-    TrendingBooksComponent,
     NewBooksComponent,
-    YourLibraryComponent,
     CatalogBookListComponent,
     CatalogBookListItemComponent,
     CatalogFiltrationComponent,
@@ -48,7 +43,8 @@ import { BookShortInformationComponent } from './core/components/book-short-info
     CommentsItemComponent,
     MainButtonComponent,
     MainPickerComponent,
-    BookShortInformationComponent
+    BookShortInformationComponent,
+    VerticalBookListComponent
   ],
   imports: [
     BrowserModule,
