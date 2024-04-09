@@ -1,0 +1,59 @@
+.new-books{
+  padding: 40px 0 100px;
+  max-width: 1400px;
+
+  h2{
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+
+  .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a{
+      font-size: 24px;
+      color: #374957;
+      font-weight: 700;
+    }
+  }
+
+  .content{
+    display: flex;
+  }
+
+  .book-full-information{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin-right: 100px;
+    img{
+      width: 209px;
+      height: 285px;
+    }
+
+    .book-title{
+      font-size: 20px;
+      font-weight: 700;
+      margin: 16px 0;
+    }
+
+    .book-description{
+      text-align: center;
+      font-size: 14px;
+    }
+  }
+
+  .book-short-information-list{
+    flex: 2;
+
+
+    app-book-short-information{
+      display: inline-block;
+      margin: 0 45px 85px 0;
+    }
+  }
+}

@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './new-books.component.scss'
 })
 export class NewBooksComponent {
-
+    books = new Array(8).fill("")
 }

@@ -1,1 +1,27 @@
-<p>new-books works!</p>
+<div class="new-books">
+  <div class="title">
+    <h2>Новинки</h2>
+    <a href="#">Більше</a>
+  </div>
+
+  <div class="content">
+    <div class="book-full-information">
+      <img src="/assets/img/book-image.png" alt="book logo">
+      <h4 class="book-title">Пригоди Віктора</h4>
+      <div class="book-description">
+        У світі магії та пригод молодий маг Віктор має дар керування часом. Його  завдання — знайти втрачену історію народу, щоб зупинити загрозу  знищення світу через змову й предательство. У пошуках правди він  зустрічає союзників і ворогів, розкриваючи небачені магічні сили та  загадкові загрози. "Складний Змій" — це пригодницька фантастика, яка  розкриває вічну боротьбу між світлом і темряв...читати далі
+      </div>
+    </div>
+
+    <div class="book-short-information-list">
+      <app-book-short-information
+        *ngFor="let book of books"
+        name="Пригоди Володимерв"
+        author="Невідомий автор"
+        imgSrc="/assets/img/book-image.png"
+        genre="Фантастика"
+        numberOfPages="294"
+      ></app-book-short-information>
+    </div>
+  </div>
+</div>
