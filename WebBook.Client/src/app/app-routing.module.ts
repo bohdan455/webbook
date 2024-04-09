@@ -5,8 +5,8 @@ import {CatalogComponent} from "./pages/catalog/catalog.component";
 import {BookInformationComponent} from "./pages/book-information/book-information.component";
 
 const routes: Routes = [
-  {path: "books/:id", component: BookInformationComponent},
-  {path:"books", component: CatalogComponent},
+  {path: "book/:id", component: BookInformationComponent},
+  {path:"catalog", component: CatalogComponent},
   {path:"", component: MainPageComponent},
 ];
 

@@ -15,7 +15,6 @@ import { CatalogBookListComponent } from './core/components/catalog-book-list/ca
 import { CatalogBookListItemComponent } from './core/components/catalog-book-list-item/catalog-book-list-item.component';
 import { CatalogFiltrationComponent } from './core/components/catalog-filtration/catalog-filtration.component';
 import { CatalogBookListPaggingComponent } from './core/components/catalog-book-list-pagging/catalog-book-list-pagging.component';
-import { CatalogGenrePopularComponent } from './core/components/catalog-genre-popular/catalog-genre-popular.component';
 import { CommentsComponent } from './core/components/comments/comments.component';
 import { CommentsItemComponent } from './core/components/comments-item/comments-item.component';
 import { MainButtonComponent } from './core/components/main-button/main-button.component';
@@ -38,7 +37,6 @@ import { VerticalBookListComponent } from './core/components/vertical-book-list/
     CatalogBookListItemComponent,
     CatalogFiltrationComponent,
     CatalogBookListPaggingComponent,
-    CatalogGenrePopularComponent,
     CommentsComponent,
     CommentsItemComponent,
     MainButtonComponent,

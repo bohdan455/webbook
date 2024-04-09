@@ -1,0 +1,22 @@
+
+.catalog{
+  padding: 165px 80px 20px;
+
+  .content{
+    display: flex;
+  }
+
+  .catalog-left-side{
+    flex: 1;
+  }
+
+  app-catalog-book-list{
+    flex: 4;
+  }
+}
+
+h2{
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 80px;
+}
