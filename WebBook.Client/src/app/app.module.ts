@@ -20,7 +20,7 @@ import { CommentsItemComponent } from './core/components/comments-item/comments-
 import { MainButtonComponent } from './core/components/main-button/main-button.component';
 import { MainPickerComponent } from './core/components/main-picker/main-picker.component';
 import { BookShortInformationComponent } from './core/components/book-short-information/book-short-information.component';
-import { VerticalBookListComponent } from './core/components/vertical-book-list/vertical-book-list.component';
+import { HorizontalBookListComponent } from './core/components/horizontal-book-list/horizontal-book-list.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +42,7 @@ import { VerticalBookListComponent } from './core/components/vertical-book-list/
     MainButtonComponent,
     MainPickerComponent,
     BookShortInformationComponent,
-    VerticalBookListComponent
+    HorizontalBookListComponent
   ],
   imports: [
     BrowserModule,
