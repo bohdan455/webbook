@@ -21,6 +21,8 @@ import { MainButtonComponent } from './core/components/main-button/main-button.c
 import { MainPickerComponent } from './core/components/main-picker/main-picker.component';
 import { BookShortInformationComponent } from './core/components/book-short-information/book-short-information.component';
 import { HorizontalBookListComponent } from './core/components/horizontal-book-list/horizontal-book-list.component';
+import { VerticalBookListComponent } from './core/components/vertical-book-list/vertical-book-list.component';
+import { BookHighlightsComponent } from './core/components/book-highlights/book-highlights.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +44,9 @@ import { HorizontalBookListComponent } from './core/components/horizontal-book-l
     MainButtonComponent,
     MainPickerComponent,
     BookShortInformationComponent,
-    HorizontalBookListComponent
+    HorizontalBookListComponent,
+    VerticalBookListComponent,
+    BookHighlightsComponent
   ],
   imports: [
     BrowserModule,
