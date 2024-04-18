@@ -6,6 +6,7 @@
   position: relative;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
   border-radius: 16px;
+  padding: 10px;
 
   .price{
     font-size: 12px;
@@ -21,11 +22,31 @@
   font-size: 15px;
 }
 
+.stars{
+  display: inline-flex;
+  align-items: center;
+}
+
+.views{
+  display: inline-flex;
+  align-items: center;
+}
+
 .author{
   font-size: 12px;
   font-weight: 500;
 }
 
+
+.ratings{
+  display: flex;
+  justify-content: space-between;
+  max-width: 110px;
+
+  & img{
+    margin-right: 4px;
+  }
+}
 .book-image{
   height: 100%;
   width: 124px;
