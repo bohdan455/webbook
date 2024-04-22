@@ -1,1 +1,36 @@
-<p>book-information works!</p>
+<div class="book-information">
+  <div class="main">
+    <div class="book-header">
+      <img src="assets/img/book-image.png" alt="book-image">
+      <div class="book-text-information">
+        <h3>{{name}}</h3>
+        <div class="genre">{{genre}}</div>
+        <div class="author">{{author}}</div>
+        <div class="ratings">
+          <div class="likes">
+            <img src="assets/img/fi-rr-heart.png" alt="likes">
+            {{stars}}
+          </div>
+          <div class="views">
+            <img src="assets/img/fi-rs-eye.png" alt="views">
+            {{views}}
+          </div>
+        </div>
+
+        <div class="pages">
+          {{status}} | {{numberOfPages}}
+        </div>
+
+        <app-main-button fontSize="14">Додати до бібліотеки</app-main-button>
+      </div>
+    </div>
+    <div class="annotation">
+      <h4>Анотація</h4>
+      {{annotation}}
+    </div>
+  </div>
+  <div class="popular">
+    <h4>Популярне</h4>
+    <app-vertical-book-list></app-vertical-book-list>
+  </div>
+</div>
