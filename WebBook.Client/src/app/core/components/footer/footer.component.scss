@@ -26,10 +26,18 @@ footer {
     font-size: 24px;
     color: white;
 
+
     .social-media{
       display: flex;
+      justify-content: center;
+      align-items: center;
       li{
         margin-right: 28px;
+      }
+
+      img{
+        width: 53px;
+        height: 53px;
       }
     }
 
@@ -37,7 +45,7 @@ footer {
 
     .phone-numbers{
       li{
-        margin-bottom: 10x;
+        margin-bottom: 10px;
       }
     }
   }
