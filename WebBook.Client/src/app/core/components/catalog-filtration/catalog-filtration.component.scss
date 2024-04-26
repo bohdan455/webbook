@@ -1,0 +1,89 @@
+.catalog-filtration{
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding: 20px;
+}
+
+h6{
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  margin-top: 28px;
+}
+
+.select-mock{
+  padding: 15px;
+  font-size: 14px;
+  border-radius: 20px;
+  background-color: #d9d9d9;
+  margin-bottom: 12px;
+}
+
+
+.checkbox-block{
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+
+  input{
+    margin-right: 4px;
+  }
+}
+
+.checkbox-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.statuses{
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type="text"]{
+  padding: 15px;
+  width: 116px;
+  font-size: 14px;
+  border-radius: 20px;
+  background-color: #d9d9d9;
+  margin-bottom: 12px;
+  outline: none;
+  border: none;
+}
+
+
+.pages{
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  div{
+    display: flex;
+    flex-direction: column;
+  }
+
+  label{
+    margin-bottom: 8px;
+  }
+}
+
+.library-books{
+  margin: 28px 0 16px;
+}
+
+.filter-button{
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  border: 2px #C48144 solid;
+  color: #C48144;
+  outline: none;
+  background-color: inherit;
+  border-radius: 24px;
+  font-weight: 500;
+  padding: 10px 20px;
+}
+
+.filter-button:hover{
+  background-color: #C48144;
+  color: white;
+}

@@ -1,1 +1,15 @@
-<p>catalog-book-list-item works!</p>
+<div class="catalog-list-item">
+  <img class="book-image" [src]="imgSrc" [alt]="name">
+  <div class="description">
+    <h4 class="name">{{name}}</h4>
+    <span class="author">{{author}}</span>
+    <div class="description">{{descriptions}}</div>
+    <span class="tag">Теги: {{tag}}</span>
+    <div class="ratings">
+      <span class="stars"><img src="assets/img/fi-rr-star.png" alt="stars"> {{stars}}</span>
+      <span class="views"><img src="assets/img/fi-rr-eye.png" alt="views"> {{views}}</span>
+      <span class="pages">Стр. {{numberOfPages}}</span>
+    </div>
+    <span class="price">{{price}}</span>
+  </div>
+</div>
