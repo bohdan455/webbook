@@ -1,4 +1,5 @@
-<nav>
+<nav
+  [class.navbar-open]="!hidden">
   <a href="#" class="logo">BookTown</a>
   <ul [class.hidden] = "hidden">
     <li><a routerLink="/catalog">Каталог</a></li>
@@ -11,5 +12,9 @@
     </form>
     <img src="/assets/img/Ellipse.png" alt="user image" class="navbar-user">
   </div>
-  <img class="menu-logo" alt="menu" src="assets/img/icons8-menu-50.png" (click)="hideElements()"/>
+  <img
+    class="menu-logo"
+    alt="menu"
+    src="assets/img/icons8-menu-50.png"
+    (click)="hideElements()"/>
 </nav>

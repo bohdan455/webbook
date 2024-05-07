@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './navbar.component.scss'
 })
 export class NavbarComponent {
-  hidden: boolean = false;
+  hidden: boolean = true;
 
   hideElements(){
     this.hidden = !this.hidden;

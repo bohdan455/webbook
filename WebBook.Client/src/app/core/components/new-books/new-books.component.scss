@@ -60,3 +60,40 @@
     }
   }
 }
+
+
+@media (max-width: 1000px) {
+
+  .book-full-information{
+    margin-right: 0 !important;
+  }
+
+  .new-books{
+    padding: 10px 0 25px !important;
+  }
+  .content{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .book-full-information{
+    margin-bottom: 30px;
+  }
+  .title{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .new-books{
+    zoom: 0.7;
+  }
+
+  h2{
+    font-size: 24px !important;
+  }
+}
+

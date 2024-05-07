@@ -50,3 +50,10 @@ footer {
     }
   }
 }
+
+
+@media (max-width: 600px) {
+  footer{
+    zoom: 0.6;
+  }
+}

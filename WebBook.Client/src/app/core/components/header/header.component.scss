@@ -18,3 +18,16 @@ header{
     }
   }
 }
+
+@media (max-width: 1000px) {
+  header{
+
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 600px) {
+  header{
+    zoom: 0.6;
+  }
+}
