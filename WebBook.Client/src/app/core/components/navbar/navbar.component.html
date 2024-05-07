@@ -1,14 +1,15 @@
 <nav>
   <a href="#" class="logo">BookTown</a>
-  <ul>
+  <ul [class.hidden] = "hidden">
     <li><a routerLink="/catalog">Каталог</a></li>
     <li><a href="#">Бібліотека</a></li>
     <li><a href="#">Форум</a></li>
   </ul>
-  <div class="navbar-search">
+  <div class="navbar-search" [class.hidden] = "hidden">
     <form>
       <input type="text" placeholder="Пошук">
     </form>
     <img src="/assets/img/Ellipse.png" alt="user image" class="navbar-user">
   </div>
+  <img class="menu-logo" alt="menu" src="assets/img/icons8-menu-50.png" (click)="hideElements()"/>
 </nav>
