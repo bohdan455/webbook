@@ -56,3 +56,17 @@
 .description{
 
 }
+
+@media (max-width: 1200px) {
+  .catalog-list-item{
+    zoom: 0.9;
+  }
+
+  .ratings{
+    margin-top: 10px;
+  }
+
+  .description{
+    font-size: 12px;
+  }
+}

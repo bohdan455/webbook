@@ -24,3 +24,26 @@ h2{
 app-catalog-book-list {
   margin-left: 50px;
 }
+
+
+@media (max-width: 900px) {
+  app-vertical-book-list{
+    display: none;
+  }
+
+  .content{
+    flex-direction: column;
+  }
+
+  .catalog{
+    zoom: 0.7;
+  }
+
+  app-catalog-filtration{
+    zoom: 0.6;
+  }
+
+  app-catalog-book-list {
+    margin-left: 0;
+  }
+}
