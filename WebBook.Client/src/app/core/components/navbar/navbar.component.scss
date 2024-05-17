@@ -56,13 +56,17 @@ nav{
   }
 }
 
-.menu-logo{
+.menu-logo {
   position: absolute;
   right: 20px;
   top: 20px;
+  display: none;
 }
 
 @media (max-width: 1000px) {
+  .menu-logo {
+    display: inline;
+  }
   .logo{
     position: absolute;
     left: 20px;
@@ -77,6 +81,10 @@ nav{
   ul{
     align-items: center;
     flex-direction: column;
+  }
+
+  .button-hidden{
+    display: inline !important;
   }
 
   .navbar-search{
